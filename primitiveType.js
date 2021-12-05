@@ -1,5 +1,6 @@
 var 이름 = 'kim';
 var 이름2 = 123;
+var 결혼했니 = true;
 var 이름들 = ['kim', 'park'];
 var 오브젝트 = { name: 'kim' };
 function 함수(x) {

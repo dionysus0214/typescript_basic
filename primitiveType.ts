@@ -1,6 +1,7 @@
 type Mytype = string | number;
 let 이름: string = 'kim';
 let 이름2: Mytype = 123;
+let 결혼했니: boolean = true;
 let 이름들: string[] = ['kim', 'park'];
 let 오브젝트: { name: string } = { name: 'kim' };
 

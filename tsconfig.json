@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "target": "es5",
-    "module": "commonjs",
+    "target": "es5", // 타입스크립트를 어떤 버전의 자바스크립트로 바꿔줄지
+    "module": "commonjs", // 자바스크립트 파일간 import 문법을 구현할 때 어떤 문법을 쓸지(require(commonjs), import(es2015, esnext))
   }
 }
