@@ -9,6 +9,20 @@ function 함수(x: number): number {
   return x * 2;
 }
 
+// union
+let 회원: number | string = 12;
+let 어레이: (number | string)[] = [1,'2',3]
+let 오브젝트2: { data : (number | string) } = { data : '123' }
+
+// any: 모든 자료형 허용, 타입 실드 해제 문법
+let 이름3: any;
+이름3 = 123;
+이름3 = [];
+
+// unknown: 모든 자료형 허용, any 보다 안전
+let 이름4: unknown;
+이름4 = 123;
+
 // tuple
 type Member = [number, boolean];
 let john: Member = [123, true];
